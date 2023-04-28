@@ -43,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
                         //intent.putParcelableArrayListExtra("LoginUser", list);
                         //startActivity(intent);
 
+                        Intent intent1 = new Intent(getApplicationContext(), WelcomeActivity.class);
 
+                        startActivity(intent1);
 
 
 

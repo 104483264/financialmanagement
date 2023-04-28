@@ -50,8 +50,8 @@ public class DBHelper extends SQLiteOpenHelper {
     //重置数据库方法(先删表，再建表)
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("drop table  if exists " + TABLE_NAME);
-        db.execSQL(CREATE_TABLE);
+//        db.execSQL("drop table  if exists " + TABLE_NAME);
+//        db.execSQL(CREATE_TABLE);
     }
 
     private void insertType(SQLiteDatabase db) {

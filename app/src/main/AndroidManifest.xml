@@ -5,15 +5,18 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="个人财务管理App"
+        android:label="黑子记账App"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.Final">
-       <activity android:name="com.financial.management.ManageActivity"></activity>
-        <activity android:name="com.financial.management.SearchRecordActivity" />
+
+
         <activity android:name="com.financial.management.RegisterActivity"/>
-        <activity android:name="com.financial.management.UserCenterActivity" />
+        <activity android:name="com.financial.management.RecordActivity"/>
+        <activity android:name="com.financial.management.WelcomeActivity"/>
         <activity android:name="com.financial.management.MainActivity">
+
+
 
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />

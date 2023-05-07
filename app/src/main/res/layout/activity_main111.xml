@@ -63,6 +63,7 @@
         android:layout_toLeftOf="@id/main_btn_more"
         android:text="@string/editone"
         android:textStyle="bold"
+        android:onClick="onClick"
         android:textColor="@color/white"
         android:drawableLeft="@mipmap/edit"
         android:gravity="center_vertical"/>

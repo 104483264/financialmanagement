@@ -47,7 +47,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text="@string/cancel"
-            android:textColor="@color/green_006400"
+            android:textColor="@color/black"
             android:background="@null"
             android:layout_marginRight="20dp"/>
         <Button
@@ -55,7 +55,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text="@string/ensure"
-            android:textColor="@color/green_006400"
+            android:textColor="@color/white"
             android:background="@null"
             android:layout_marginRight="20dp"/>
     </LinearLayout>

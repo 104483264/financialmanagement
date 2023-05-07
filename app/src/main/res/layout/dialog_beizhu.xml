@@ -36,7 +36,7 @@
             android:text="@string/cancel"
             android:background="@drawable/dialog_btn_bg"
             android:textStyle="bold"
-            android:textColor="@color/green_006400"
+            android:textColor="@color/black"
             android:layout_marginRight="5dp"/>
         <Button
             android:id="@+id/dialog_beizhu_btn_ensure"

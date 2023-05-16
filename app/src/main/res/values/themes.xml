@@ -16,7 +16,6 @@
         <item name="windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
 
-
 </style>
 
     <style name="dialogmoreStyle">
@@ -24,7 +23,7 @@
         <item name="android:padding">20dp</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_height">120dp</item>
         <item name="android:layout_width">0dp</item>
     </style>
 </resources>

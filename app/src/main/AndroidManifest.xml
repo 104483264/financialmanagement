@@ -12,7 +12,11 @@
         android:theme="@style/Theme.Final">
 
 
-        <activity android:name="com.financial.management.RegisterActivity"/>
+        <activity android:name=".Registerfragment"></activity>
+        <activity android:name=".Search"></activity>
+        <activity android:name=".About"></activity>
+        <activity android:name=".History"></activity>
+        <activity android:name=".Setting"></activity>
         <activity android:name="com.financial.management.RecordActivity"/>
         <activity android:name="com.financial.management.WelcomeActivity"/>
         <activity android:name="com.financial.management.MainActivity"/>

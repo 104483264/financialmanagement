@@ -32,11 +32,6 @@
             app:cornerRadius="50dp"
             app:backgroundTint="#696969"
             />
-
-
-
-
-
     </RelativeLayout>
 
 

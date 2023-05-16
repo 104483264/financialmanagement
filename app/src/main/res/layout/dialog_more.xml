@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="20dp"
@@ -8,23 +9,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/dialog_more_btn_about"
             style="@style/dialogmoreStyle"
+            android:layout_height="match_parent"
             android:drawableTop="@mipmap/it_guanyu"
-            android:text="@string/about"/>
+            android:text="@string/about"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white" />
+
         <Button
             android:id="@+id/dialog_more_btn_setting"
             style="@style/dialogmoreStyle"
-            android:drawableTop="@mipmap/it_shezhi"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:text="@string/setting"/>
+            android:drawableTop="@mipmap/it_shezhi"
+            android:text="@string/setting"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
         <Button
             android:id="@+id/dialog_more_btn_record"
             style="@style/dialogmoreStyle"
             android:drawableTop="@mipmap/it_jilu"
-            android:text="@string/history_record"/>
+            android:text="@string/history_record"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,7 +47,9 @@
             style="@style/dialogmoreStyle"
             android:drawableTop="@mipmap/it_xiqing"
             android:text="@string/account_info"
-            android:layout_marginRight="30dp"/>
+            android:layout_marginRight="30dp"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"/>
     </LinearLayout>
     <ImageView
         android:id="@+id/dialog_more_iv"

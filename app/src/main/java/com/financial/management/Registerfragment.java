@@ -13,7 +13,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 //注册页面逻辑
-public class RegisterActivity extends AppCompatActivity {
+public class Registerfragment extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

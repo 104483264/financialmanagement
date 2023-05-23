@@ -56,8 +56,8 @@
 
     <Button
         android:id="@+id/main_btn_edit"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
         android:layout_alignBottom="@id/main_btn_more"
         android:background="@drawable/main_recordbtn_bg"
         android:layout_toLeftOf="@id/main_btn_more"

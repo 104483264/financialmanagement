@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">黑子记账</string>
-    <string name="editone">记一笔...</string>
+    <string name="editone">记一笔</string>
     <string name="month_out">本月支出</string>
     <string name="out">支出</string>
     <string name="month_in">本月收入</string>
@@ -25,16 +25,15 @@
     <string name="about_version">版本</string>
     <string name="about_1">1.0</string>
     <string name="about_app">关于应用</string>
-    <string name="about_balabala">学会这个项目,就能够理解Activity，Fragment，数据库等相关内容，好好学习吧！</string>
+    <string name="about_balabala">一个记账app</string>
     <string name="about_developer">开发者</string>
     <string name="about_me">关于我</string>
     <string name="about_loc">坐标武汉,垃圾程序员一个。</string>
     <string name="about_email">发送邮箱</string>
-    <string name="about_email2">我的邮箱是:1044823264@qq.com,有问题可以找我！</string>
+    <string name="about_email2">我的邮箱是:1044823264@qq.com</string>
     <string name="about_code">源代码</string>
-    <string name="about_codeinfo">我的代码托管在码云服务器上，地址链接为：</string>
-    <string name="about_B">B站地址</string>
-    <string name="about_B2">我的个人Bilibili主页地址为：\n</string>
+    <string name="about_codeinfo">我的代码托管在github上，地址链接为：https://github.com/104483264/financialmanagement</string>
+
 
     <string name="history_info">本月账单记录</string>
     <string name="clear_all">清空所有记录</string>

@@ -16,11 +16,13 @@ import androidx.annotation.NonNull;
 
 import com.financial.management.About;
 import com.financial.management.History;
+import com.financial.management.MonthChart;
+import com.financial.management.PhotoActivity;
 import com.financial.management.R;
 import com.financial.management.Setting;
 
 public class MoreDialog extends Dialog implements View.OnClickListener {
-    Button aboutBtn,settingBtn,historyBtn,infoBtn;
+    Button aboutBtn,settingBtn,historyBtn,infoBtn,picture;
     ImageView errorIv;
     public MoreDialog(@NonNull Context context) {
         super(context);
@@ -34,12 +36,14 @@ public class MoreDialog extends Dialog implements View.OnClickListener {
         historyBtn = findViewById(R.id.dialog_more_btn_record);
         infoBtn = findViewById(R.id.dialog_more_btn_info);
         errorIv = findViewById(R.id.dialog_more_iv);
+        picture = findViewById(R.id.btn_upload);
 
         aboutBtn.setOnClickListener(this);
         settingBtn.setOnClickListener(this);
         historyBtn.setOnClickListener(this);
         infoBtn.setOnClickListener(this);
         errorIv.setOnClickListener(this);
+        picture.setOnClickListener(this);
     }
 
     @Override
@@ -59,13 +63,14 @@ public class MoreDialog extends Dialog implements View.OnClickListener {
                 getContext().startActivity(intent);
                 break;
             case R.id.dialog_more_btn_info:
-                
-
-                //intent.setClass(getContext(), MonthChartActivity.class);
-
-
+                intent.setClass(getContext(), MonthChart.class);
                 getContext().startActivity(intent);
                 break;
+            case R.id.btn_upload:
+                intent.setClass(getContext(), PhotoActivity.class);
+                getContext().startActivity(intent);
+
+                    break;
             case R.id.dialog_more_iv:
                 break;
         }

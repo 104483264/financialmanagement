@@ -50,6 +50,16 @@
             android:layout_marginRight="30dp"
             android:textColor="@color/black"
             app:backgroundTint="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_upload"
+            style="@style/dialogmoreStyle"
+            android:layout_height="match_parent"
+            android:drawableTop="@mipmap/it_guanyu"
+            android:text="上传图片"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white" />
+
     </LinearLayout>
     <ImageView
         android:id="@+id/dialog_more_iv"

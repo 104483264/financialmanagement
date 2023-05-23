@@ -159,6 +159,10 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
 
         }
         if(view == headerView){
+            //头布局被点击了
+            Intent intent = new Intent();
+            intent.setClass(this, MonthChart.class);
+            startActivity(intent);
 
         }
 

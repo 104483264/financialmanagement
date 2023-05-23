@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Final">
 
-
+        <activity android:name=".PhotoActivity"></activity>
+        <activity android:name=".MonthChart"></activity>
         <activity android:name=".Registerfragment"></activity>
         <activity android:name=".Search"></activity>
         <activity android:name=".About"></activity>

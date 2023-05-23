@@ -10,13 +10,11 @@ import android.widget.Toast;
 import com.financial.management.db.DBManager;
 
 public class Setting extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
     }
-
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.setting_iv_back:
